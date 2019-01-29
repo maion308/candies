@@ -17,8 +17,5 @@ Your app should have the following routes:
 * `/candies/:id` - a **put** (update) route that updates the candy with the requested id
 * `/candies/:id` - a **delete** route that deletes the requested candy from the database
 
-
-
-
-Bonus:
-* add some pictures of candies and display it on the page when a certain endpoint is hit.
+Note: You should test these endpoints in Postman not the browser because by default you can only do a get request in the browser.
+We need to connect a front end and forms to access create, put, or delete methods.
