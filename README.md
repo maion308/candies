@@ -1,4 +1,4 @@
-![Kid and candies](./images/candy-kids450x563.jpg)
+![Kid and candies](https://raw.git.generalassemb.ly/WDI-Epiphany/node-express-routes-lesson/master/lab/images/candy-kids450x563.jpg)
 
 ### Hello, Developer!
 
