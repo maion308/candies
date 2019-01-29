@@ -5,7 +5,7 @@
 You now know how to use CRUD with Express and Sequelize so it's time to do it yourself.
 
 A kid has come to you with an idea for an API to keep track of his candies. You love candies! So, you accept his proposal. You are given a resource Candy  (in the `/db/candies.js` directory) and use the kid's candy "data" to display it on the webpage.
-Build your own application from scratch.
+Build your own application from scratch including a database, Sequelize, and Express.
 
 
 Your app should have the following routes:
@@ -14,7 +14,10 @@ Your app should have the following routes:
 * `/candies` - a **get** route would render a `json` containing information about ALL candies
 * `/candies` - a **post** route that would add a new candy to the database
 * `/candies/:id` - a **get** route that would render a information about the candy with requested id.
-* 
+* `/candies/:id` - a **put** (update) route that updates the candy with the requested id
+* `/candies/:id` - a **delete** route that deletes the requested candy from the database
+
+
 
 
 Bonus:
