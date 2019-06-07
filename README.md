@@ -11,16 +11,22 @@ Build your own application from scratch that includes a database, Sequelize, and
 
 1. Inside of `candyHw` run `npm init -y`
 
-1. Build out `models.js`, `resetDb.js`, and `seed.js` files.
+1. Build out `models.js`, `resetDb.js`, and `seed.js` files. - Your `seed.js` file should have 5 candies in it.
 
-Your app should have the following routes:
+1. Build out your `server.js` file with your express server
+
+
+Add the following routes to your `server.js`:
 
 * `/` - Root route, would welcome user and introduce the app
-* `/candies` - a **get** route would render a `json` containing information about ALL candies
-* `/candies` - a **post** route that would add a new candy to the database
-* `/candies/:id` - a **get** route that would render a information about the candy with requested id.
+* `/candies` - a **get** route renders a `json` object containing information about ALL candies
+* `/candies` - a **post** route that adds a new candy to the database
+* `/candies/:id` - a **get** route that renders information about the candy with requested id.
 * `/candies/:id` - a **put** (update) route that updates the candy with the requested id
 * `/candies/:id` - a **delete** route that deletes the requested candy from the database
 
 Note: You should test these endpoints in Postman not the browser because by default you can only do a get request in the browser.
 We need to connect a front end and forms to access create, put, or delete methods.
+
+
+This homework is due **SUNDAY AT 11PM** 
