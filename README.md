@@ -7,6 +7,11 @@ You now know how to use CRUD with Express and Sequelize so it's time to do it yo
 A kid has come to you with an idea for an API to keep track of his candies. You love candies! So, you accept his proposal.
 Build your own application from scratch that includes a database, Sequelize, and Express.
 
+1. Start by creating a folder in this repo folder called `candyHw`
+
+1. Inside of `candyHw` run `npm init -y`
+
+1. Build out `models.js`, `resetDb.js`, and `seed.js` files.
 
 Your app should have the following routes:
 
