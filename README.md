@@ -12,6 +12,9 @@ Build your own application from scratch that includes a database, Sequelize, and
 1. Add a `.gitignore` file to your folder and paste the following inside `node_modules/`
 
 1. Build out `models.js`, `resetDb.js`, and `seed.js` files. - Your `seed.js` file should have 5 candies in it.
+     * Your database should be called candies_db
+     * Your database should have one table called candies
+     * Your table should have 3 columns: 1) name - type should be string 2) color - type should be string 3) rating - should be an integer
 
 1. Build out your `server.js` file with your express server
 
