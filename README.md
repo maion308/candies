@@ -7,7 +7,7 @@ You now know how to use CRUD with Express and Sequelize so it's time to do it yo
 A kid has come to you with an idea for an API to keep track of his candies. You love candies! So, you accept his proposal.
 Build your own application from scratch that includes a database, Sequelize, and Express.
 
-1. Inside of this run `npx sequelize-cli init`
+1. Inside of this run `npm init -y` and `npx sequelize-cli init`
 
 1. Add a `.gitignore` file to your folder and paste the following inside `node_modules/`
 
