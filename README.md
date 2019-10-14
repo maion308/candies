@@ -11,9 +11,9 @@ Build your own application from scratch that includes a database, Sequelize, and
 
 1. Add a `.gitignore` file to your folder and paste the following inside `node_modules/`
 
-1. Build out `models.js`, `resetDb.js`, and `seed.js` files. - Your `seed.js` file should have 5 candies in it.
+1. Build out `models`, and `seed` files using the Sequelize CLI. - Your `seed` file should have 5 candies in it.
      * Your database should be called candies_db
-     * Your database should have one table called candies
+     * Your database should have one model called candies
      * Your table should have 3 columns: 1) name - type should be string 2) color - type should be string 3) rating - should be an integer
 
 1. Build out your `server.js` file with your express server
@@ -29,7 +29,5 @@ Add the following routes to your `server.js`:
 * `/candies/:id` - a **delete** route that deletes the requested candy from the database
 
 Note: You should test these endpoints in Postman not the browser because by default you can only do a get request in the browser.
-We need to connect a front end and forms to access create, put, or delete methods.
-
 
 This homework is due **AT 11PM** 
