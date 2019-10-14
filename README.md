@@ -13,7 +13,7 @@ Build your own application from scratch that includes a database, Sequelize, and
 
 1. Build out `models`, and `seed` files using the Sequelize CLI. - Your `seed` file should have 5 candies in it.
      * Your database should be called candies_db
-     * Your database should have one model called candies
+     * Your database should have one model called `Candy`
      * Your table should have 3 columns: 1) name - type should be string 2) color - type should be string 3) rating - should be an integer
 
 1. Build out your `server.js` file with your express server
