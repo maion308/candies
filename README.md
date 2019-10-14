@@ -17,9 +17,10 @@ Build your own application from scratch that includes a database, Sequelize, and
      * Your table should have 3 columns: 1) name - type should be string 2) color - type should be string 3) rating - should be an integer
 
 1. Build out your `server.js` file with your express server
+2. Add Router and write your routes in a separate file from `server.js`.
 
 
-Add the following routes to your `server.js`:
+Add the following routes to your `routes` file:
 
 * `/` - Root route, would welcome user and introduce the app
 * `/candies` - a **get** route renders a `json` object containing information about ALL candies
