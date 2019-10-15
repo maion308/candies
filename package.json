@@ -1,0 +1,23 @@
+{
+  "name": "candies",
+  "version": "1.0.0",
+  "description": "![Kid and candies](https://raw.git.generalassemb.ly/WDI-Epiphany/node-express-routes-lesson/master/lab/images/candy-kids450x563.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/michaelion/candies"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^7.12.1",
+    "sequelize": "^5.19.6"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
+  }
+}
